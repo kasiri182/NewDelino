@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116C67811E03E5DC00082300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 116C67801E03E5DC00082300 /* main.m */; };
+		116C67841E03E5DC00082300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116C67831E03E5DC00082300 /* AppDelegate.m */; };
+		116C67871E03E5DC00082300 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116C67861E03E5DC00082300 /* FirstViewController.m */; };
+		116C678A1E03E5DC00082300 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116C67891E03E5DC00082300 /* SecondViewController.m */; };
+		116C678D1E03E5DC00082300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116C678B1E03E5DC00082300 /* Main.storyboard */; };
+		116C678F1E03E5DC00082300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116C678E1E03E5DC00082300 /* Assets.xcassets */; };
+		116C67921E03E5DC00082300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116C67901E03E5DC00082300 /* LaunchScreen.storyboard */; };
+		116C679D1E03E5DC00082300 /* NewDelinoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116C679C1E03E5DC00082300 /* NewDelinoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		116C67991E03E5DC00082300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116C67741E03E5DC00082300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116C677B1E03E5DC00082300;
+			remoteInfo = NewDelino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116C677C1E03E5DC00082300 /* NewDelino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewDelino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116C67801E03E5DC00082300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		116C67821E03E5DC00082300 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		116C67831E03E5DC00082300 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		116C67851E03E5DC00082300 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		116C67861E03E5DC00082300 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		116C67881E03E5DC00082300 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		116C67891E03E5DC00082300 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		116C678C1E03E5DC00082300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		116C678E1E03E5DC00082300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116C67911E03E5DC00082300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116C67931E03E5DC00082300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116C67981E03E5DC00082300 /* NewDelinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewDelinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		116C679C1E03E5DC00082300 /* NewDelinoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewDelinoUITests.m; sourceTree = "<group>"; };
+		116C679E1E03E5DC00082300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116C67791E03E5DC00082300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116C67951E03E5DC00082300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116C67731E03E5DC00082300 = {
+			isa = PBXGroup;
+			children = (
+				116C677E1E03E5DC00082300 /* NewDelino */,
+				116C679B1E03E5DC00082300 /* NewDelinoUITests */,
+				116C677D1E03E5DC00082300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116C677D1E03E5DC00082300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116C677C1E03E5DC00082300 /* NewDelino.app */,
+				116C67981E03E5DC00082300 /* NewDelinoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116C677E1E03E5DC00082300 /* NewDelino */ = {
+			isa = PBXGroup;
+			children = (
+				116C67821E03E5DC00082300 /* AppDelegate.h */,
+				116C67831E03E5DC00082300 /* AppDelegate.m */,
+				116C67851E03E5DC00082300 /* FirstViewController.h */,
+				116C67861E03E5DC00082300 /* FirstViewController.m */,
+				116C67881E03E5DC00082300 /* SecondViewController.h */,
+				116C67891E03E5DC00082300 /* SecondViewController.m */,
+				116C678B1E03E5DC00082300 /* Main.storyboard */,
+				116C678E1E03E5DC00082300 /* Assets.xcassets */,
+				116C67901E03E5DC00082300 /* LaunchScreen.storyboard */,
+				116C67931E03E5DC00082300 /* Info.plist */,
+				116C677F1E03E5DC00082300 /* Supporting Files */,
+			);
+			path = NewDelino;
+			sourceTree = "<group>";
+		};
+		116C677F1E03E5DC00082300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				116C67801E03E5DC00082300 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		116C679B1E03E5DC00082300 /* NewDelinoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				116C679C1E03E5DC00082300 /* NewDelinoUITests.m */,
+				116C679E1E03E5DC00082300 /* Info.plist */,
+			);
+			path = NewDelinoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116C677B1E03E5DC00082300 /* NewDelino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116C67A11E03E5DC00082300 /* Build configuration list for PBXNativeTarget "NewDelino" */;
+			buildPhases = (
+				116C67781E03E5DC00082300 /* Sources */,
+				116C67791E03E5DC00082300 /* Frameworks */,
+				116C677A1E03E5DC00082300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewDelino;
+			productName = NewDelino;
+			productReference = 116C677C1E03E5DC00082300 /* NewDelino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		116C67971E03E5DC00082300 /* NewDelinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116C67A41E03E5DC00082300 /* Build configuration list for PBXNativeTarget "NewDelinoUITests" */;
+			buildPhases = (
+				116C67941E03E5DC00082300 /* Sources */,
+				116C67951E03E5DC00082300 /* Frameworks */,
+				116C67961E03E5DC00082300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116C679A1E03E5DC00082300 /* PBXTargetDependency */,
+			);
+			name = NewDelinoUITests;
+			productName = NewDelinoUITests;
+			productReference = 116C67981E03E5DC00082300 /* NewDelinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116C67741E03E5DC00082300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Mohammad;
+				TargetAttributes = {
+					116C677B1E03E5DC00082300 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 957H2674FW;
+						ProvisioningStyle = Automatic;
+					};
+					116C67971E03E5DC00082300 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 957H2674FW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 116C677B1E03E5DC00082300;
+					};
+				};
+			};
+			buildConfigurationList = 116C67771E03E5DC00082300 /* Build configuration list for PBXProject "NewDelino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116C67731E03E5DC00082300;
+			productRefGroup = 116C677D1E03E5DC00082300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116C677B1E03E5DC00082300 /* NewDelino */,
+				116C67971E03E5DC00082300 /* NewDelinoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116C677A1E03E5DC00082300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116C67921E03E5DC00082300 /* LaunchScreen.storyboard in Resources */,
+				116C678F1E03E5DC00082300 /* Assets.xcassets in Resources */,
+				116C678D1E03E5DC00082300 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116C67961E03E5DC00082300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116C67781E03E5DC00082300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116C678A1E03E5DC00082300 /* SecondViewController.m in Sources */,
+				116C67841E03E5DC00082300 /* AppDelegate.m in Sources */,
+				116C67871E03E5DC00082300 /* FirstViewController.m in Sources */,
+				116C67811E03E5DC00082300 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116C67941E03E5DC00082300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116C679D1E03E5DC00082300 /* NewDelinoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		116C679A1E03E5DC00082300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116C677B1E03E5DC00082300 /* NewDelino */;
+			targetProxy = 116C67991E03E5DC00082300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		116C678B1E03E5DC00082300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116C678C1E03E5DC00082300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		116C67901E03E5DC00082300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116C67911E03E5DC00082300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		116C679F1E03E5DC00082300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		116C67A01E03E5DC00082300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116C67A21E03E5DC00082300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 957H2674FW;
+				INFOPLIST_FILE = NewDelino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atd.NewDelino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		116C67A31E03E5DC00082300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 957H2674FW;
+				INFOPLIST_FILE = NewDelino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atd.NewDelino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		116C67A51E03E5DC00082300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 957H2674FW;
+				INFOPLIST_FILE = NewDelinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atd.NewDelinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NewDelino;
+			};
+			name = Debug;
+		};
+		116C67A61E03E5DC00082300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 957H2674FW;
+				INFOPLIST_FILE = NewDelinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atd.NewDelinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NewDelino;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116C67771E03E5DC00082300 /* Build configuration list for PBXProject "NewDelino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116C679F1E03E5DC00082300 /* Debug */,
+				116C67A01E03E5DC00082300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116C67A11E03E5DC00082300 /* Build configuration list for PBXNativeTarget "NewDelino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116C67A21E03E5DC00082300 /* Debug */,
+				116C67A31E03E5DC00082300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		116C67A41E03E5DC00082300 /* Build configuration list for PBXNativeTarget "NewDelinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116C67A51E03E5DC00082300 /* Debug */,
+				116C67A61E03E5DC00082300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 116C67741E03E5DC00082300 /* Project object */;
+}
