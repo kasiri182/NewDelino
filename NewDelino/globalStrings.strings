@@ -1,0 +1,14 @@
+/* 
+  globalStrings.strings
+  RahnoHyper
+
+  Created by Mohammad on 10/21/16.
+  Copyright © 2016 Mohammad. All rights reserved.
+*/
+"url" = "http://api.hyperrahno.ir";
+"version" = "0.1.1";
+"profile" = "profile";
+"sendMobile" = "profile/2step";
+"allAddress" = "profile/address";
+"order" = "order";
+"auth" = "auth/app?apptoken";
